@@ -1,0 +1,22 @@
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .video-wrapper iframe {
+    border: none;
+    width: 100%;
+    max-width: 853px;
+    height: 480px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .video-wrapper iframe {
+      height: 240px;
+    }
+  }
+  

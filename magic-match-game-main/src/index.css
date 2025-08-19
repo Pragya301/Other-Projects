@@ -1,0 +1,15 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://wallpapers.com/images/hd/doraemon-pictures-s0e07b3o55xulijc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 94vh;
+}
+
+

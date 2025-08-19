@@ -1,0 +1,180 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.carousel{
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+
+.para{
+    font-size: 16px;
+    line-height: 34px;
+    color: #6c6d70;
+    font-weight: 500;
+    margin-bottom: 24px;
+    font-family: arial;
+    text-align: justify;
+}
+  
+  .card-container {
+    margin-top: 3rem;
+    margin-left: 17rem;
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30rem;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .card-description {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+    text-align: justify;
+  }
+  .newproject{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 17rem;
+    
+  }
+ 
+  .dadri{
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    padding: 1px;
+  }
+  .dadri-card {
+    background: url(https://images.unsplash.com/photo-1564495524918-9429cddc7511?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 40rem;
+    height: 95vh;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 30rem;
+    margin-bottom: 2rem;
+    
+  }
+  
+  .dadri-card-heading {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #fff;
+  }
+  
+  .dadri-card-description{
+    font-size: 2.5em;
+    padding: 0 20px 20px;
+    margin: 10px;
+    color: #f2f3d0;
+    background-color: #102952a0;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .dadari-p{
+    font-size: 1.5em;
+    padding: 0 20px 20px;
+    margin: 10px;
+    color: #000000;
+    background-color: #eeff38;
+    border-radius: 10px;
+    width: 20rem;
+  }
+  
+  .dadri-card-button {
+    background-color: #78a44d9d;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dadri-card-button:hover {
+    background-color: #0056b3;
+  }
+  .dadri-card img{
+    width: 40%;
+  }
+ 
+  .list-container {
+    margin-left: 15rem;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .styled-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-item {
+    background: linear-gradient(135deg, #6b11cb9d 0%, #2575fc 100%);
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .list-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .list-item:not(:last-child) {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .ytvd{
+    margin-top: 20px;
+    margin-left: 40rem;
+  }
+  

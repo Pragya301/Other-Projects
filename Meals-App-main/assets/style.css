@@ -1,0 +1,131 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,600;1,200;1,400&family=PT+Sans:wght@400;700&family=Quicksand:wght@400;600&display=swap');
+
+
+* {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+body {
+    background-color: whitesmoke;
+}
+.upper-main{
+    background-image: url("bg1.jpg");
+    background-size: cover;
+}
+.main{
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+#fav {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: larger;
+}
+.navbar{
+    background-color: #67676b;
+}
+.searchbox {
+    margin: 0;
+    width: 40%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: .8rem 2rem .8rem 1rem;
+    outline: none;
+    border: 2px solid #161616;
+    background-color: #f4972c80;
+    color: white;
+}
+
+.searchbutton {
+    text-align: center;
+    outline: none;
+    border: 2px solid black;
+    background-color: #23212E;
+    margin: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: .8rem 1rem;
+    margin-left: -1.9%;
+}
+
+i {
+    color: #F4952C;
+}
+
+/* .image-info{
+    height: 40%
+}
+
+.image-info img{
+    height: 100%;
+} */
+
+.recipe-list {
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 7px;
+    color: #9c9c9c
+    
+}
+
+.btn-warning {
+    background: rgb(241, 161, 49);
+    background: linear-gradient(90deg, rgba(241, 161, 49, 1) 1%, rgba(244, 149, 44, 1) 30%, rgba(250, 197, 63, 1) 66%);
+    border-radius: 20px;
+    padding: 0.4rem 2rem;
+    color: white!important;
+}
+.white{
+    color: white;
+}
+.food-wid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heading2 {
+    
+    font-size: 2.5rem;
+   background: rgb(121, 118, 107);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+   margin-left: -50px;
+   margin-top: -50px;
+    font-weight: 600;
+}
+
+.heading{
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+#recipe-intro{
+    font-weight: lighter!important;
+    word-spacing: 0.3rem;
+    
+}
+
+.para{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(95, 76, 76);
+    padding-top: 30px;
+   
+}
+
+
+
