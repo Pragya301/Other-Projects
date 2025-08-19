@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: 
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );  
+  background-size: 106%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  width: 99vw;
+  height: 99vh;
+}
+
+.btn-position{
+  margin-left: 1%;
+  width: 80%;
+  margin-left: none;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.grp-name{
+  margin-top: 20px;
+  font-style: Cursive;
+  font-weight: 500;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.btn{
+  height: 60%;
+  margin-top: 1.1%;
+  width: 8%;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background: rgba(219, 221, 222, 0.922);
+}
+
+.active{
+  background-color:rgba(250, 199, 199, 0.916) ;
+  height: 70%;
+  width: 10%;
+  margin-top: 1.1%;
+  border-radius: 15px;
+  font-size: large;
+  font-weight: bold;
+}
+
+#button-container{
+  width: 23%;
+  height: 15%;
+  margin-left: 45%;
+  margin-top: 20%;
+}
+
+.hover-btn{
+  height: 50%;
+  width: 50%;
+  font-size: 1rem;
+
+}
+.hover-btn:hover{
+  background-color:rgb(193, 176, 217);
+}
+
+.top{
+  height: 30%;
+  width: 50%;
+  margin-top: -50%;
+  margin-left: -3%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgb(236, 213, 195);
+  
+}
+
+.right{
+    height: 30%;
+    width: 50%;
+    margin-top:-18%;
+    margin-left: 80%;
+    padding: 6px 10px 15px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(236, 213, 195);
+}
+
+.down{
+  height: 30%;
+  width: 50%;
+  margin-top: 15%;
+  margin-left: -3%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgb(236, 213, 195);
+}
+
+.left{
+  height: 30%;
+  width: 50%;
+  margin-top:-17%;
+  margin-left: -80%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgb(236, 213, 195);
+}
+
+
