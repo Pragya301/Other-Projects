@@ -1,0 +1,21 @@
+.auth_more{
+    border: 1px solid grey;
+    padding: 20px;
+    margin-left: 33rem;
+    margin-right: 33rem;
+    text-align: center;
+    margin-top: 15px;
+}
+.auth_more > span {
+    font-weight: 500;
+    font-size: 14px;
+}
+.auth_more > span > button {
+    background: 0;
+    color: red;
+    font-weight: bolder;
+    border: 0;
+}
+.auth_more > span > button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.Login{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 50px;
+    margin-left: 33rem;
+    margin-right: 33rem;
+    margin-top: 100px;
+}
+.Login > img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.Login > input{
+    background-color: #ffffff24;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 12px;
+    margin-bottom: 20px;
+    color: black;
+}
+.Login > input:focus{
+    outline: 1px solid grey;
+}
+.Login > button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+}
+.Login > button:hover{
+    cursor: pointer;
+}
