@@ -1,0 +1,106 @@
+.about{
+    padding: 5rem;
+    background: #EFEFBB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.about-heading::after{
+    content: '';
+    display: block;
+    border: 3px solid rgb(252, 14, 133);
+    width: 100%;
+}
+/* ########### ABOUT WRAPER STYLING##### */
+.about-wraper{
+    font-weight: 600;
+    
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+.about-wraper .left{
+    float: left;
+    width: 50%;
+}
+.about-wraper .right{
+   float: right;
+   width: 50%;
+}
+.about-wraper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.about-wraper li::before{
+   content: '\2713';
+   color: rgb(252, 14, 133);
+   font-weight: 900;
+   padding-right: 1rem;
+}
+/* #############COUNT STYLING############### */
+.count{
+    margin-top: 3rem;
+  
+}
+.count-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.count::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.count-item span{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(252, 14, 133);
+}
+.count-item p{
+    font-weight: 700;
+    color: gray;
+    font-size: 1.8rem;
+}
+/* #########CTA BANNER STYLING########### */
+.cta-banner{
+    background: #ec008c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+padding: 1rem;
+box-shadow: 5px 5px 20px 0px rgba(119, 119, 119, 0.548); 
+margin-top: 10rem;
+}
+.cta-banner-left{
+width: 60%;
+float: left;
+}
+.cta-banner-right{
+width: 40%;
+float: right;
+text-align: right;
+margin-top: 1rem;
+}
+.cta-banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.cta-line{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+.btn-cta{
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 0.5rem;
+    letter-spacing: 0.5rem;
+    color: white;
+}

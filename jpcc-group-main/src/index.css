@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-brand 
+{
+  font-size: 1.9rem !important;
+  color: #565387;
+}
+
+.navbar-brand img
+{
+  width: 8rem;
+  height: 5rem;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover {
+  color: #3498db !important;
+}
+
+@media (max-width: 991px){
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+  
+}
